@@ -1,0 +1,219 @@
+* {margin: 0;
+   padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;}
+
+/* # Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    min-height: fit-content;
+    
+    background-color: #F9FAF8;
+}
+img {
+    margin-left: 15px;
+    min-height: 100px;
+    margin-left: 118px;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+li {
+    list-style-type: none;
+    
+}
+.header-list {
+    text-decoration: none;
+    color: #1f2937;
+    font-size: 24px;
+}
+ a:hover {
+    color: rgb(48, 99, 114);
+}
+/* # End of Header Section*/
+
+/* # Start of Hero Section*/
+.hero {
+    padding: 10px 10px 10px 15px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4267b1;
+   
+}
+.left-hero {
+    max-width: 600px;
+}
+.left-hero h1 {
+    color: #F9FAF8;
+    font-size: 42px;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+.left-hero p {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: justify;
+    
+}
+.know-more {
+    background-color: #174794;
+    color: #F9FAF8;
+    margin: 10px 0 10px 0;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 3px;
+    border: none;
+}
+.know-more:hover {
+    background-color:  #3882f6;
+}
+.arda-link a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-style: italic;
+
+}
+.arda-link a:hover {
+    color: green;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.right-hero img {
+    width: 550px;
+    height: 350px;
+    margin-right: 25px;
+}
+/* # End of Hero Section*/
+
+/* # Start of Programme Section*/
+.programmes h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 106px;
+}
+.cards h4 {
+    /*display: flex;
+    justify-content: space-between;*/
+    margin-left: 110px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card1 img,
+.card2 img,
+.card3 img,
+.card4 img {
+    border-radius: 5px;
+    border: 3px solid #3882f6;
+}
+
+.card1 img:hover {
+    border: 3px solid  rgb(221, 98, 27);
+}
+.card2 img:hover {
+    border: 3px solid  rgb(221, 98, 27);
+}
+.card3 img:hover {
+    border: 3px solid  rgb(221, 98, 27);
+}
+.card4 img:hover {
+    border: 3px solid  rgb(221, 98, 27);
+}
+
+/* # End of Programme Section*/
+
+/* # Start of Quote Section*/
+.quote {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    background-color: #e5e7eb;
+    
+}
+.quote-text {
+    padding: 15px 65px;
+    font-size: 26px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.management {display: flex;
+    align-items: flex-end;
+    min-width: fit-content;
+    justify-content: flex-end;
+    margin-right: 146px;
+    font-size: medium;
+    font-weight: 700;
+
+}
+/* # End of Quote Section*/
+
+/* # Start of Action-call Section*/
+
+.action-container {
+    margin-top: 10px;
+    min-height: 180px;
+    
+}
+.action-call  {
+    background-color: #3882f6;
+    color: whitesmoke;
+    font-size: large;
+    min-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 55px;
+    padding: 25px 50px;
+    border-radius: 7px;
+    line-height: 25px;
+}
+.action-button {
+    background-color: #3882f6;
+    border: #e5e7eb solid;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 4px 7px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 95px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: rgb(48, 99, 114);
+}
+/* # End of Action-call Section*/
+
+/* # Start of Footer Section*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    min-height: 80px;
+    text-align: center;
+}
